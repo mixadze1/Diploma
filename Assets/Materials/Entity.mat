@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Entity
-  m_Shader: {fileID: 4800000, guid: fe4dc6667161b437a82d94861aaf1f79, type: 3}
+  m_Shader: {fileID: 4800000, guid: 151550502dcda46f9b77129d48defa36, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords:
   - _RIMOVERLAP_ON
@@ -80,7 +80,7 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Offset: 0.7
-    - _OtlWidth: 1
+    - _OtlWidth: 0
     - _Parallax: 0.02
     - _PostAtten: 0
     - _RimIntense: 0
