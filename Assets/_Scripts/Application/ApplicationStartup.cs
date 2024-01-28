@@ -1,18 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using Zenject;
 
-public class ApplicationStartup : MonoBehaviour
+namespace _Scripts.Application
 {
-    // Start is called before the first frame update
-    void Start()
+    public class ApplicationStartup : MonoBehaviour
     {
+        [Inject]
+        private void Construct()
+        {
         
-    }
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
+        private void Start()
+        {
         
+        }
     }
 }
